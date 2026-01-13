@@ -1,27 +1,45 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    padding: 100px;
+    color: aquamarine;
+    border: 5px solid aquamarine;
+}
+
+nav {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.4;
     color: darkblue;
-    background-color: whitesmoke;
+    text-align: center;
+    animation: rainbow 1s infinite;
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height: 133px;
     width: auto;
 }
 
-a {
-    color: deeppink;
-    text-decoration: none;
-}
 
 a:hover {
     color: darkmagenta;
+}
+
+footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    background: #eee;
+    border-radius: 8px;
 }
